@@ -11,3 +11,6 @@ else:
     x_increment = 3
 alien_1['x_position'] = alien_1['x_position'] + x_increment
 print('New Position is :'+ str(alien_1['x_position']))
+#removing key 
+del alien_1['speed']
+print(alien_1)
