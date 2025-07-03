@@ -1,0 +1,21 @@
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
+motorcycles.append('redhill')
+print(f"I appended {motorcycles[-1]} to the list:")
+print(motorcycles)
+motorcycles.append('Harley-Davidson')
+print(f"I appended {motorcycles[-1]} to the list:")
+print(motorcycles)
+motorcycles.append('Aprilia')
+print(f"I appended {motorcycles[-1]} to the list:")
+print(motorcycles)
+motorcycles.append('Kawasaki Motors')
+print(f"I appended {motorcycles[-1]} to the list:")
+print(motorcycles)
+del motorcycles[0]
+print("I deleted motorcycles[0] from the list:")
+print(motorcycles)
+pop_motorcycle = motorcycles.pop()
+print(f"Poped motorcycle : {pop_motorcycle}\n Poped list: {motorcycles}")
