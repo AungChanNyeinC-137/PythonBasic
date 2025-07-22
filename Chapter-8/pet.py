@@ -1,0 +1,11 @@
+def describe_pet(pet_name,animal_type = 'dog'):
+    print('I have a '+animal_type.title()+'.')
+    print(f'My {animal_type} name is {pet_name}.')
+describe_pet('Lerry','Hamster')
+describe_pet(animal_type='dog',pet_name='Ozu')
+describe_pet(pet_name='Krypto',animal_type='cat')
+describe_pet('AungNat')
+print('testing Equivalent Function Calls\n')
+describe_pet('Willie')
+describe_pet(pet_name='Willie')
+describe_pet(animal_type='Cat',pet_name='SmellyCat')
