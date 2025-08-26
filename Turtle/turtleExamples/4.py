@@ -10,7 +10,7 @@ t.setheading(0)
 t.pendown()
 t.begin_fill()
 t.circle(radius)
-t.end_fill
+t.end_fill()
 mouth_radius = radius * 0.6
 mouth_angle = 70
 
