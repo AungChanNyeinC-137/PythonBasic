@@ -1,0 +1,47 @@
+import turtle
+turtle.bgcolor('white')
+turtle.colormode(255)
+def square():
+    for i in range(4):
+        turtle.forward(100)
+        turtle.right(90)
+turtle.penup()
+turtle.goto(90,-200)
+style = ("Arial", 15, "italic") 
+turtle.write("Windows 10 LOGO!", font=style, align="center") 
+turtle.left(90)
+
+turtle.penup()
+turtle.goto(100,-150)
+turtle.pendown()
+turtle.color('yellow')
+turtle.begin_fill()
+square()
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(100,-40)
+turtle.pendown()
+turtle.color('green')
+turtle.begin_fill()
+square()
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(-10,-40)
+turtle.pendown()
+turtle.color('red')
+turtle.begin_fill()
+square()
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(-10,-150)
+turtle.pendown()
+turtle.color('blue')
+turtle.begin_fill()
+square()
+turtle.end_fill()
+
+turtle.hideturtle()
+turtle.done()
