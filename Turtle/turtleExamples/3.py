@@ -1,5 +1,6 @@
 import turtle
 turtle.bgcolor('white')
+turtle.speed(1)
 turtle.colormode(255)
 def square():
     for i in range(4):
